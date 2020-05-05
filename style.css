@@ -44,23 +44,7 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.mydiv {
-    width:100%;
-    height:100%;
-    color:black;
-    font-weight:bold;
-    animation: myanimation 10s infinite;
-    text-align: center;
-    font-size: large;
-  }
-  
-  @keyframes myanimation {
-    0% {background-color: skyblue;}
-    25%{background-color:navy;}
-    50%{background-color:palevioletred;}
-    75%{background-color:powderblue;}
-    100% {background-color: turquoise;}
-  }
+
   
   .container{
     display: flex;
@@ -104,6 +88,7 @@ nav ul li a:hover{
 @media screen and (max-width: 1075px){
     img{
       height: 600px;
+        width:500px
     }
   }
   @media screen and (max-width: 720px){
